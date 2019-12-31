@@ -1,0 +1,231 @@
+.bgimg{
+    background-image: url(./tt.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+    height:621px;
+}
+.nav{
+    font-size: 25px;
+}
+ul li a{
+    border-bottom: 4px solid transparent;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    border-bottom: 2px solid orange;
+}
+.headerset{
+    padding-top:200px;
+    box-sizing: border-box;
+}
+.headerset h2{
+    font-size: 42px;
+}
+.headerset h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+/* ..........our-services.................. */
+.ourservices{
+    height:600px;
+    margin-top: 200px;
+    padding:100px 0px 60px;
+}
+.rowsetting{
+    margin:80px 0px !important;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.imgsetting{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+}
+ .fa-shopping-cart{
+     margin-top:20px;
+ }
+ .fa-lock{
+     margin-top: 23px;
+ }
+ .fa-desktop{
+     margin-top: 25px;
+ }
+ .rowsetting h2{
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 30px;
+ }
+ .rowsetting p{
+     color:#6c757d !important;
+     padding:10px;
+ }
+
+ /* ////////////////==========Portfolio===========/// */
+ /* .img5{
+     width:348px;
+     height:232.25px;
+ } */
+
+ .portfolio{
+     height:1100px;
+     width:100%;
+     padding:100px 0px 50px;
+ }
+ .portfolio h1{
+     font-size: 50px;
+     font-weight: bold;
+ }
+ .card{
+     margin-top: 40px;
+ }
+
+ /* ====///////////////////// Our Team============//// */
+
+ .ourteam{
+     height:700px;
+     padding:100px 0px 50px;
+     width:100%;
+ }
+ .ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+ .teamsetting{
+            margin-top: 50px;
+ }
+
+ /* ...////////////===========Footer==============//// */
+
+ .footer{
+     height:50px;
+
+ }
+ .footer h6{
+     line-height: 50px;
+ }
+
+
+
+ /* /////////////======================Responsive==================///// */
+
+ 
+ /* <======(large devices laptops,desktop)=== */
+ 
+ 
+ @media (min-width:992px){
+
+ }
+
+
+ /* <========================End============ */
+
+ /* <=========(landsape tablets)========= */
+
+@media (min-width:768px) and (max-width:991px){
+
+    .headerset h2{
+        font-size: 42px;
+    }
+    .headerset h1{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .ourservices{
+        height:1000px;
+        /* margin-top: 200px;
+        padding:100px 0px 60px; */
+    }
+}
+
+/* <========================End============ */
+
+
+/* <=========(portable tablets and large phones)========= */
+
+@media (min-width:575px) and (max-width:767px){
+    .headerset h2{
+        font-size: 32px;
+    }
+    .headerset h1{
+        font-size: 52px;
+        font-weight: bold;
+    }
+    .ourservices{
+        height:1300px;
+        /* margin-top: 200px;
+        padding:100px 0px 60px; */
+    }
+    .portfolio{
+        height:3300px;
+        /* width:100%;
+        padding:100px 0px 50px; */
+    }
+    .ourteam{
+        height:2200px;
+        /* padding:100px 0px 50px;
+        width:100%; */
+    }
+}
+
+/* <========================End============ */
+
+
+/* <=========(portrait Mode)========= */
+
+@media (min-width:480px) and (max-width:574px){
+    .headerset h2{
+        font-size: 22px;
+    }
+    .headerset h1{
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .ourservices{
+        height:1200px;
+        /* margin-top: 200px;
+        padding:100px 0px 60px; */
+    }
+    .portfolio{
+        height:2800px;
+        /* width:100%;
+        padding:100px 0px 50px; */
+    }
+    .ourteam{
+        height:2100px;
+        /* padding:100px 0px 50px;
+        width:100%; */
+    }
+   
+}
+
+/* <========================End============ */
+
+/* <=========(MOBILE Mode)========= */
+
+@media (max-width:479px){
+    .headerset h2{
+        font-size: 22px;
+    }
+    .headerset h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .ourservices{
+        height:1500px;
+        /* margin-top: 200px;
+        padding:100px 0px 60px; */
+    }
+    .portfolio{
+        height:2500px;
+        
+    }
+    .ourteam{
+        height:1800px;
+    }
+}
+
+/* <========================End============ */
